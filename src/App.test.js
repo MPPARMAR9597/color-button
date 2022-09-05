@@ -23,7 +23,7 @@ test('Button Has Correct Initial Text', () => {
   expect(colorButton).toHaveStyle({ background: 'MidnightBlue' });
 
   // Expect The Button Text To Be 'Change To MediumVioletRed'
-  expect(colorButton.textContent).toBe('Change To Medium Violet Red');
+  expect(colorButton).toHaveTextContent('Change To Medium Violet Red');
 });
 
 test("Initial Conditions", () => {
